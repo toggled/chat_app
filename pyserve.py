@@ -13,6 +13,7 @@ import socket,threading,os
 host=''
 port=10000
 chunksize=4
+var=3
 def main():
     s = socket.socket()
     s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR, 1)
